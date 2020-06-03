@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		* {
+			margin: 0;
+			padding: 0;
+			font-family: "poppins",sans-serif;
+		}
+		.starter {
+			width: 100%;
+			height: 100vh;
+			background:#000;
+			position: relative;
+			overflow:hidden;
+		}
+		.starter::after {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background:url('background.jpg') no-repeat;
+			background-size: cover;
+			opacity: .3;
+			animation: anim 25s linear infinite
+		}
+		@keyframes anim {
+			50% {
+				transform: scale(2);
+			}
+			100% {
+				transform: scale(1);
+			}
+		}
+		.content {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			z-index: 1;
+			width: 100%;
+			max-width: 800px;
+			text-align: center;
+			box-sizing: border-box;
+			padding: 0 40px;
+		}
+		.content h1 {
+			color:#dc143c;
+			text-transform: uppercase;
+			font-size: 50px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+		.content p {
+			color:#fff;
+			margin-bottom: 20px;
+		}
+		.content a {
+			display: inline-block;
+			color:#67759a;
+			border:2px solid #67759a;
+			text-transform: uppercase;
+			text-decoration: none;
+			padding: 10px 20px;
+			transition: 0.4s linear;
+		}
+		.content a:hover {
+			color:#fff;
+			background:#67759a;
+		}
+		.starter #create {
+			color:#fff;
+			position: absolute;
+			top: 95%;
+			padding: 0 0 0 5px;
+		}
+		.description {
+			padding: 10px;
+			text-align: justify-all;
+		}
+		.description div{
+			margin-bottom:20px
+		}
+	</style>
+	<title>Let's Play</title>
+</head>
+<body>
+	<div class="starter">
+		<div class="content">
+			<h1>Ping Pong</h1>
+			<p>
+				Welcome to ping-pong web game. Game instruction is givin below, Have fun. 
+			</p>
+			<a href="C:/Users/Arsalan-Najm/Desktop/Web Designing Tutorials/All tests/Ping Pong/index.html">Play Game</a>
+		</div>
+		<p id="create">2020 Created By Arsalan Najm All Rights Reserved.</p>
+	</div>
+	<div class="description">
+		<div>
+			<h2>Overview</h2>
+		<p>Table tennis, also known as ping-pong and whiff-whaff, is a sport in which two or four players hit a lightweight ball back and forth across a table using small rackets or paddles. The game takes place on a hard table divided by a net. The rules are generally as follows: players must allow a ball played toward them to bounce one time on their side to the table, and must return it so that it once. A point is scored when a player fails to return the ball within the rules. Play is fast and deminds quick reactions. Spinning the ball alerts its trajectory and limits and opponents's options, giving the hitter a great advantage.</p>
+	</div>
+	<div>
+		<h2>Table</h2>
+		<p>The table is 2.74 m (9.0 ft) long, 1.525 m (5.0 ft) wide, and 76 cm (2.5 ft) high with any continuous material so long as the table yields a uniform bounce of about 23 cm (9.1 in) when a standard ball is dropped onto it from a height of 30 cm (11.8 in), or about 77%.[25][26] The table or playing surface is uniformly dark coloured and matte, divided into two halves by a net at 15.25 cm (6.0 in) in height. The ITTF approves only wooden tables or their derivates. Concrete tables with a steel net or a solid concrete partition are sometimes available in outside public spaces, such as parks.</p>
+	</div>
+	<div>
+		<h2>Ball</h2>
+		<p>The international rules specify that the game is played with a sphere having a mass of 2.7 grams (0.095 oz) and a diameter of 40 millimetres (1.57 in).[23] The rules say that the ball shall bounce up 24–26 cm (9.4–10.2 in) when dropped from a height of 30.5 cm (12.0 in) onto a standard steel block thereby having a coefficient of restitution of 0.89 to 0.92. Balls are now made of a polymer instead of celluloid as of 2015, colored white or orange, with a matte finish. The choice of ball color is made according to the table color and its surroundings. For example, a white ball is easier to see on a green or blue table than it is on a grey table. Manufacturers often indicate the quality of the ball with a star rating system, usually from one to three, three being the highest grade. As this system is not standard across manufacturers, the only way a ball may be used in official competition is upon ITTF approval[23] (the ITTF approval can be seen printed on the ball).</p>
+	</div>
+	<div>
+		<h2>Paddle</h2>
+		<p>Players are equipped with a laminated wooden racket covered with rubber on one or two sides depending on the grip of the player. The ITTF uses the term "racket",[28] though "bat" is common in Britain, and "paddle" in the U.S. and Canada.</p>
+	</div>
+	</div>
+</body>
+</html>
